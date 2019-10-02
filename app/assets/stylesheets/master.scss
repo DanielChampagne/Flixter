@@ -26,7 +26,7 @@
     -o-background-size: cover;
     background-size: cover;
     height: 370px;
-    box-shadow: 0px 3px 8px rgba(2, 66, 66, 0.7);
+    box-shadow: 0px 6px 8px rgba(2, 66, 66, 0.7);
     }
 
 h1, h2, h3, h4, h5, h6, .navbar {
@@ -44,17 +44,44 @@ h1, h2, h3, h4, h5, h6, .navbar {
     text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
   }
 
-  .frosty h2 {
+.frosty h2 {
     font-family: "Helvetica Neue", Helvetica;
     font-weight: 200;
     text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
   }
 
-  .btn {
-      border-radius: 0;
+.btn {
+    border-radius: 0;
     }
+.feature {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+    } 
 
-  
+body {
+    background: image_url('wood.jpg');
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    
+}
+
+.course {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    color: white;
+
+}
+.learn {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    color: white;
+}
+.join {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    color: white;
+}
 
 
 
