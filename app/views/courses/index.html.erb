@@ -6,20 +6,25 @@
 
   <% @courses.each do |course| %>
     <h2 class="text-center">
-      <%= link_to course.title, course_path(course) %>
-      <%= image_tag course.image.to_s, class: 'img-fluid' %>
+      <%= link_to course.title, course_path(course) %> 
     </h2>
-     
-
-    <br />
-    <div class="row">
-        <div class="col-sm-8 col-12">
-        <%= course.description %>
-        </div>
-        <div class="col-sm-4 col-12 text-center">
-        <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
-        </div>
+    <div class="row justify-content-center">
+      <div class= "col-sm-4">
+        <%= image_tag course.image.to_s, class: 'img-fluid' %>
+      </div>
     </div>
+    <br />
+    <div class="row justify-content-center">
+      <div class="col-sm-6 text-center mb-2">
+        <%= course.description %>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-sm-4 text-center">
+        <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
+      </div>
+    </div>
+    <hr> 
     <br class="clr" />
   <% end %>
 
