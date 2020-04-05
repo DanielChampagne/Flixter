@@ -1,24 +1,18 @@
-# README
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Built using:
+- Ruby v2.5.3
+- HTML5
+- CSS
+- Bootstrap 4.3.1
+- JQuery
+- Popper JS
+- Font Awesome
+- Stripe API
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Ruby Gems used:
+- Carrierwave
+- Figaro
+- Simple-Form
+- Devise
+- Mini-magick
